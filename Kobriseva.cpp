@@ -9,8 +9,8 @@ struct book{
 };
 
 int Main(){
-book Books[n];
-for(int i=0; i<n; i++){
+book Books[5];
+for(int i=0; i<5; i++){
     if(Books[i].Tiraz<10000){
         std::cout<<"Кол-во книг, тираж которых, не превышает 10000 экземпляров:"<<endl;
         std::cout<<"Автор: "<<Books[i].Author;<<endl<<"Жанр: "<<Books[i].Genre<<endl<<"Наименование книги: "<<Books[i].BookName<<endl<<"Тираж: "<<Books[i].Tiraz<<endl<<endl;
